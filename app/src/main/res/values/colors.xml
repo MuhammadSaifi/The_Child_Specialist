@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Frame_Back">#84CED9</color> <!--#B7EEF8-->
+    <color name="default_icon">#000000</color>
+    <color name="icon_slc">#4ab7c7</color>
+    <color name="back_page">#BEE5EB</color>
+    <color name="toolbar_Back">#A9ACAE</color>
+    <color name="white">#FCFCFC</color>
+    <color name="tool_text">#000000</color>
+<color name="display_db">#abdde5</color>
+    <color name="home_back">#5e7974</color>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "170120417942",
+    "firebase_url": "https://child-specialist.firebaseio.com",
+    "project_id": "child-specialist",
+    "storage_bucket": "child-specialist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170120417942:android:fa69a7e6a4f687f9c7a8b7",
+        "android_client_info": {
+          "package_name": "com.example.the_child_specialist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170120417942-tge51u7hl0ucs55gjojtjv5kn5o2efc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.the_child_specialist",
+            "certificate_hash": "31d41a5c44111d6d99979a4319a28a28d80b038b"
+          }
+        },
+        {
+          "client_id": "170120417942-7e0a5k0toucd4r6qbujqrd2bu035gp2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsfajz4NFKp3Fe-kNPqtqljUyc47hL6GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170120417942-7e0a5k0toucd4r6qbujqrd2bu035gp2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

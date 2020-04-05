@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_page"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/layout_pic1"
+        >
+
+        <ImageView
+            android:id="@+id/homeVaccin"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/child_vaccination" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/homeVaccin"
+            android:text="Vaccination"
+            android:paddingLeft="5dp"
+            android:id="@+id/vaccin_title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/vaccin_title"
+            android:text="@string/detail_vaccin"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:gravity="start"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/layout_pic1"
+        >
+
+        <ImageView
+            android:id="@+id/homeNutrition"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/child_vaccination" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccination"
+            android:layout_marginTop="140dp"
+            android:paddingLeft="5dp"
+            android:background="@color/white"
+            android:id="@+id/nutrition_title"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:gravity="start"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/nutrition_title"
+            android:text="@string/detail_vaccin"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            android:gravity="start"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

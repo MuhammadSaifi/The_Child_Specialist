@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_page"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+  <RelativeLayout
+        android:id="@+id/slide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="310dp">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            app:auto_cycle="true"
+            app:corner_radius="15"
+            app:delay="0"
+            app:period="4000" />
+    </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:id="@+id/layout_menuPic"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/layout_vaccin"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="30dp"
+                    android:background="@drawable/home_back">
+
+                    <ImageView
+                        android:id="@+id/mVaccin"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/injection"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mVaccin"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/home_vaccin"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/setGoal"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/layout_vaccin"
+                    android:background="@drawable/home_back">
+
+                    <ImageView
+                        android:id="@+id/mSetGoal"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/image_set_goal"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mSetGoal"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/home_set"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/setGoal"
+                    android:background="@drawable/home_back">
+
+                    <ImageView
+                        android:id="@+id/mCalculator"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/image_calc"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mCalculator"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/calculatr"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_nutrition"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="90dp"
+                    android:background="@drawable/home_back">
+
+                    <ImageView
+                        android:id="@+id/mNutrition"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/nutrition"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mNutrition"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/menu_nutrients"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_toEndOf="@+id/layout_nutrition"
+                    android:background="@drawable/home_back">
+
+                    <ImageView
+                        android:id="@+id/mDisease"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/disease"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mDisease"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/menu_nutrients"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout_vaccin_Pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/layout_menuPic"
+            >
+
+            <ImageView
+                android:id="@+id/pic_Vaccin"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/child_vaccination"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_vaccin"
+                android:layout_marginTop="142dp"
+                android:paddingStart="5dp"
+                android:background="@color/white"
+                android:id="@+id/mVaccin_title"
+                android:textSize="18sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:gravity="start"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/mVaccin_title"
+                android:text="@string/detail_vaccin"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="5dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:gravity="start"
+                tools:ignore="RtlSymmetry" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/layout_healthpic"
+            android:layout_below="@+id/layout_vaccin_Pic"
+            >
+
+            <ImageView
+                android:id="@+id/pic_health"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/child_health"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_vaccin"
+                android:layout_marginTop="166dp"
+                android:paddingStart="5dp"
+                android:id="@+id/health_title"
+                android:textColor="@color/white"
+                android:background="@color/home_back"
+                android:textSize="18sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingLeft="5dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:gravity="start"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/health_title"
+                android:text="@string/detail_vaccin"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:background="@color/home_back"
+                android:gravity="start"
+                tools:ignore="RtlSymmetry" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout_feeding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/layout_healthpic"
+            >
+
+            <ImageView
+                android:id="@+id/pic_feeding"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/child_nutrition"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_vaccin"
+                android:layout_marginTop="160dp"
+                android:paddingStart="5dp"
+                android:background="@color/white"
+                android:id="@+id/feeding_title"
+                android:textSize="18sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:gravity="start"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/feeding_title"
+                android:text="@string/detail_vaccin"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="5dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:gravity="start"
+                tools:ignore="RtlSymmetry" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout_disease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/layout_feeding"
+            >
+
+            <ImageView
+                android:id="@+id/pic_disease"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/child_disease"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_vaccin"
+                android:layout_marginTop="150dp"
+                android:paddingStart="5dp"
+                android:id="@+id/disease_title"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:background="@color/home_back"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:gravity="start"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/disease_title"
+                android:text="@string/detail_vaccin"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="5dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:background="@color/home_back"
+                android:gravity="start"
+                tools:ignore="RtlSymmetry" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

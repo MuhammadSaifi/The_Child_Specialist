@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Frame_Back">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/back_page"
+        android:paddingStart="15dp"
+        android:paddingTop="35dp"
+        android:text="@string/welcome"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/welcom" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/mybutton"
+        android:text="@string/log_in"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/log_in"
+        android:text="@string/sign_up" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+<ImageView
+    android:id="@+id/image"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/ab"
+    android:layout_above="@+id/textView6"
+    tools:ignore="ContentDescription" />
+
+
+</RelativeLayout>
